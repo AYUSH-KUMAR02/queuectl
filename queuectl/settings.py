@@ -30,6 +30,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
 	'NAME': BASE_DIR / env('DB_NAME', default='db.sqlite3'),
+	'OPTIONS': {
+            # Increase busy timeout to 30 seconds so workers wait for locks rather than failing immediately
+            'timeout': 30,
+        },
     }
 }
 
