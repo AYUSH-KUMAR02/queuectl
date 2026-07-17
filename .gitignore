@@ -1,0 +1,80 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# Media & Static (choose based on your needs)
+# media/
+# staticfiles/
+# static/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Django stuff
+*.sqlite3
+local_settings.py
+settings_local.py
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Django Migrations (optional - usually you DO want to commit these)
+# !migrations/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtualenv
+pip-selfcheck.json
+
+# PyInstaller
+# Usually .gitignore these
+*.spec
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyenv
+.python-version
+
+#environment variables
+.env
